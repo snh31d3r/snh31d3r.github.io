@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Portafolio - Angello Triviño</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, maximum-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../static/css/normalize.css">
+        <link rel="stylesheet" href="../static/css/estilos.css">
+    </head>
+    <body>
+        <header id="yo" class="Header">
+            <button class="Header-button is-active icon-showMenu" id="showMenu"></button>
+            <button class="Header-button icon-hideMenu" id="hideMenu"></button>
+            <nav class="MainMenu" id="menu">
+                <ul class="MainMenu-list">
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#yo">Yo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#perfil">Perfil</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#trabajo">Trabajo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <figure class="Header-imageContainer">
+                <img src="../static/images/avatar.jpg" alt="Imagen personal" class="Header-image" width="210" height="250"/>
+                <figcaption class="Header-imageDescription">
+                    <a class="Header-link" href="http://twitter.com/snh31d3r/" target="_black">@snh31d3r</a>
+                </figcaption>
+            </figure>
+            <p class="Header-name" >Angello Triviño</p>
+        </header>
+        <section id="perfil" class="Profile">
+            <div class="u-containerDefault">
+                <h2 class="Profile-title u-title">Mi perfil</h2>
+                <p class="Profile-description">
+                    <strong>Hola!</strong> si <span class="Profile-span">llegaste</span> hasta aqui puedes ver mi portafolio y <em>contactarme</em>
+
+                </p>
+                <a class="Profile-link twitter icon-twitter" href="http://twitter.com/snh31d3r/" target="_blank">@snh31d3r</a>
+                <a class="Profile-link facebook icon-facebook" href="https://www.facebook.com/snheider.trivinoumana/" target="_blank">AngelloTriviño</a>
+                <a class="Profile-link github icon-github" href="http://github.com/snh31d3r/" target="_blank">AngelloTriviño</a>
+
+                <p>
+                  Desarrollador de páginas Web en Microsoft
+                  Visual Studio C# y PHP, Sistema Gestor de Base de Datos (SGBD)
+                  MySQL y posgrestSQL, Programación Orientada a Objetos (POO) Java,
+                  C y C++, modelación UML, Desarrollo de Aplicaciones Móviles
+                  Multiplataforma - Xamarin Microsoft y aptitudes básicos en Machine
+                  Learning o Inteligencia Artificial - Redes Neuronales Artificiales (RNA).
+                </p>
+            </div>
+        </section>
+        <section class="Slider">
+            <div class="Slider-container">
+                <ul class="rslides">
+                  <!--
+                  <li><img src="../static/images/img1.jpg" alt="Conferencia de México DF" title="Conferencia de México DF" width="1024" height="400"></li>
+                  <li><img src="../static/images/img2.jpg" alt="Conferencia de Monteria" title="Conferencia de Monteria" width="1024" height="400"></li>
+                  <li><img src="../static/images/img3.jpg" alt="Conferencia de Trujillo" title="Conferencia de Trujillo" width="1024" height="400"></li>
+                  -->
+                </ul>
+            </div>
+        </section>
+        <section id="trabajo" class="Work">
+            <div class="u-containerDefault">
+                <h2 class="Work-title u-title">Mi trabajo</h2>
+            </div>
+            <div class="Work-container u-containerDefault">
+              <article class="Work-item">
+                <figure class="Work-imageContainer">
+                  <input type="image" class="Work-image" id="proyecto_1"
+                  src="https://github.com/snh31d3r/SupermercadoOnline/raw/master/Images_Readme/Prueba_1.png"
+                  alt="Es la descripcion de mi imagen" width="245" height="245">
+                  <figcaption class="Work-description">SupermercadoOnline <br> ASP.NET C#</figcaption>
+                  </figure>
+              </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                      <input type="image" class="Work-image" id="proyecto_2"
+                      src="https://github.com/snh31d3r/App-Tienda/raw/master/Images_Readme/Image_1.png"
+                      alt="Es la descripcion de mi imagen" width="245" height="245">
+                      <figcaption class="Work-description">App-Tienda <br> Xamarin-Android</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                        <input type="image" class="Work-image" id="proyecto_3"
+                        src="https://github.com/snh31d3r/MicroMouseSimulation/raw/master/Images_Readme/Prueba_1.png"
+                        alt="Es la descripcion de mi imagen" width="245" height="245">
+                        <figcaption class="Work-description">MicroMouseSimulation <br> Processing</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                      <input type="image" class="Work-image" id="proyecto_4"
+                      src="https://github.com/snh31d3r/RNA-Hopfield-Reconocimiento/raw/master/Images_Readme/Prueba_1.png"
+                      alt="Es la descripcion de mi imagen" width="245" height="245">
+                        <figcaption class="Work-description">Reconocimiento de vocales <br> Java</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                      <input type="image" class="Work-image" id="proyecto_5"
+                      src="https://github.com/snh31d3r/CalentadorAgua_ONOFF/raw/master/Images_Readme/Prueba_1.png"
+                      alt="Es la descripcion de mi imagen" width="245" height="245">
+                        <figcaption class="Work-description">CalentadorAgua_ONOFF <br> Processing</figcaption>
+                    </figure>
+                </article>
+                <article class="Work-item">
+                    <figure class="Work-imageContainer">
+                      <input type="image" class="Work-image" id="proyecto_6"
+                      src="https://github.com/snh31d3r/LabElectronica/raw/master/Images_Readme/Prueba_1.png"
+                      alt="Es la descripcion de mi imagen" width="245" height="245">
+                        <figcaption class="Work-description">Acceso LabElectronica <br> Arduino</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <footer id="contacto" class="Footer">
+            <div class="Footer-left">
+                <h3 class="Footer-title">Contacto</h3>
+                <p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo, contactame por la redes sociales
+                o ver mi repositorio en GitHub</p>
+                <a class="Profile-link twitter icon-twitter" href="http://twitter.com/snh31d3r/" target="_blank">@snh31d3r</a>
+                <a class="Profile-link facebook icon-facebook" href="https://www.facebook.com/snheider.trivinoumana/" target="_blank">AngelloTriviño</a>
+                <a class="Profile-link github icon-github" href="http://github.com/snh31d3r/" target="_blank">AngelloTriviño</a>
+            </div>
+          <!--  <form class="Footer-form">
+                <input class="Footer-formInput"  type="text" placeholder="Nombre" id="tb_nombre" maxlength="20" required/>
+                <input class="Footer-formInput" type="email" placeholder="Email" id="tb_email"maxlength="30" required/>
+                <textarea class="Footer-textarea" placeholder="Motivo" maxlength="200" id="ta_motivo" required></textarea>
+                <button class="Footer-button" type="submit" id="b_contactar">Contactarme</button>
+            </form>-->
+        </footer>
+        <script src="../static/js/codigo.js"></script>
+        <script>
+          $(function() {
+            $(".rslides").responsiveSlides();
+
+            if(window.matchMedia("(max-width:768px)").matches){
+                var $buttonHideMenu = document.getElementById('hideMenu');
+                var $menu = document.getElementById('menu');
+
+                var $body = document.querySelector('body');
+
+                var body = new Hammer($body);
+
+                var showMenu = function(){
+                    $buttonShowMenu.classList.remove('is-active');
+                    $buttonHideMenu.classList.add('is-active');
+                    $menu.classList.add('is-active');
+                };
+
+                var hideMenu = function(){
+                    $buttonShowMenu.classList.add('is-active');
+                    $buttonHideMenu.classList.remove('is-active');
+                    $menu.classList.remove('is-active');
+                };
+
+                $buttonShowMenu.addEventListener("click", showMenu);
+
+                $buttonHideMenu.addEventListener("click", hideMenu);
+
+                body.on('panright', showMenu);
+                body.on('panleft', hideMenu);
+            }
+          });
+        </script>
+    </body>
+</html>
